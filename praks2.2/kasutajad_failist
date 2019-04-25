@@ -1,0 +1,8 @@
+#!/bin/bash
+
+user='cat /home/user/rsha/praks2.2/kasutaja'
+while read user; do
+
+	useradd $user -m 
+
+done < /home/user/rsha/praks2.2/kasutaja
