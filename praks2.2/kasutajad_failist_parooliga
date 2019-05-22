@@ -11,3 +11,4 @@ do
 echo `useradd $kasutaja `
 echo $kasutaja:$parool | chpasswd
 done < "$file"
+ 
